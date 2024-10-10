@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Super Hotel O Emporio 3422A",
+        "imageUrls": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/2600/large/ab0565e4d9a68c6b.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/2600/large/944799b8e6b4416f.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/2600/large/c2f9883bb110b900.jpg"
+        ],
+        "rentPerDay": 1500,
+        "type": "Delux",
+        "rating": 4.5,
+        "phoneNumber": 2334234230,
+        "currentBookings": [],
+        "maxCount": 3,
+        "description": "Super Hotel O Emporio  is a Excellent hotel and very good location new delhi. This hotel is serviced under the trade name of Hotel Emporio as per quality standards of OYO"
+    },
+    {
+        "name": "Super Townhouse",
+        "imageUrls": [
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/106280/large/srhggscyknxm.jpg",
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/106280/large/rhcljlfbxsrc.jpg",
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/106280/large/kckuksxgpmkq.jpg"
+        ],
+        "rentPerDay": 1200,
+        "type": "Non Delux",
+        "rating": 4.2,
+        "phoneNumber": 6534234239,
+        "currentBookings": [],
+        "maxCount": 3,
+        "description": "Super Townhouse Rohini Sector 23 is a Excellent hotel and very good location new delhi. This hotel is serviced under the trade name of Hotel Emporio as per quality standards of OYO"
+    },
+    {
+        "name": "Super Townhouse Vikaspuri",
+        "imageUrls": [
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/245142/large/rtqdopdtrnss.jpg",
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/245142/large/croxqburmmew.jpg",
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/245142/large/pvrqalwqahix.jpg"
+        ],
+        "rentPerDay": 1800,
+        "type": "Delux",
+        "rating": 4.8,
+        "phoneNumber": 12534234231,
+        "currentBookings": [],
+        "maxCount": 3,
+        "description": "Super Townhouse Vikaspuri is a Excellent hotel and very good location new delhi. This hotel is serviced under the trade name of Hotel Emporio as per quality standards of OYO"
+    },
+    {
+        "name": "Super Townhouse Shahdara Near",
+        "imageUrls": [
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/77894/large/mlotmaugerdj.jpg",
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/77894/large/tdtphpsvytjk.jpg",
+            "https: //images.oyoroomscdn.com/uploads/hotel_image/77894/large/sxqaipyymtyv.jpg"
+        ],
+        "rentPerDay": 1100,
+        "type": "Non Delux",
+        "rating": 4.0,
+        "phoneNumber": 2234234237,
+        "currentBookings": [],
+        "maxCount": 3,
+        "description": "Super Townhouse Shahdara Near is a Excellent hotel and very good location new delhi and located on Yamuna Sports Complex 154, Subhash St, Near Cross River Mall, Vishwas Nagar, Delhi"
+    }
+]
