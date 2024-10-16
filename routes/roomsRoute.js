@@ -15,7 +15,29 @@ router.get('/getAllRooms', async (req, res) => {
 router.post('/getRoomById', async (req, res) => {
     const roomId = req.body.roomId;
     try {
-        const room = await Room.findOne({_id: roomId})
+        const room = await Room.findOne({ _id: roomId })
+        return res.send(room)
+    } catch (error) {
+        return res.status(400).json({ message: error })
+    }
+})
+
+router.post('/createRoom', async (req, res) => {
+    const { name, maxCount, phoneNumber, rentPerDay, rating, imageUrls, type, description } = req.body;
+    const roomReqData = {
+        name,
+        maxCount,
+        phoneNumber,
+        rentPerDay,
+        rating,
+        imageUrls,
+        type,
+        description,
+        currentBookings: []
+    };
+    try {
+        const newRoom = new Room(roomReqData)
+        const room = await newRoom.save()
         return res.send(room)
     } catch (error) {
         return res.status(400).json({ message: error })

@@ -25,7 +25,8 @@ router.post('/login', async (req, res) => {
                 name: user.name,
                 userId: user._id,
                 isAdmin: user.isAdmin,
-                accessToken: accessToken
+                accessToken: accessToken,
+                email: user.email
             }
             return res.send(userData)
         } else {
@@ -33,6 +34,15 @@ router.post('/login', async (req, res) => {
         }
     } catch (error) {
         return res.status(400).json({ error })
+    }
+})
+
+router.get('/getAllUsers', async (req, res) => {
+    try {
+        const allUser = await Users.find()
+        return res.send(allUser)
+    } catch (error) {
+        return res.status(400).json({ error }) 
     }
 })
 

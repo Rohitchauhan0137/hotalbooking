@@ -10,7 +10,7 @@ const bookingSchema = mongoose.Schema({
     totalAmount: { type: Number, required: true },
     totalDays: { type: Number, required: true },
     transactionId: { type: String, required: true },
-    status: { type: String, required: true, default: 'Booked' },
+    status: { type: String, required: true, default: 'Confirmed' },
 }, { timestamp: true })
 
 const bookingModel = mongoose.model('bookings', bookingSchema)
